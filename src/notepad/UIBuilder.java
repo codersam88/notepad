@@ -18,7 +18,7 @@ public class UIBuilder {
     private JTextArea paper;
 
     public UIBuilder() {
-        mainWind = new JFrame();
+        mainWind = new JFrame("Swm pad");
         paper = new JTextArea();
         mainWind.add(paper);
         mainWind.pack();

@@ -14,6 +14,6 @@ public class Notepad {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        new UIBuilder();
+        UIBuilder u1= new UIBuilder();
     }
 }
